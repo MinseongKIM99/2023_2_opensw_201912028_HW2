@@ -23,6 +23,7 @@ async def send(time):
     await bot.sendMessage(chat_id=public_chat_name, text=time)
     print(f"Sent message: ", time)
 
+# 30분 단위로 개설 채널에 메세지 전송
 schedule.every(30).minutes.do(job)
 
 while True:
