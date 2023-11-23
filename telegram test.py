@@ -6,9 +6,9 @@ import asyncio
 import pytz
 
 # 텔레그램 봇 설정
-token = "6736572403:AAFqSX_mS5AyGZ0c5bSHP4bmtBvJ_MLWtrE"
+token = "Your_token"
 bot = telegram.Bot(token=token)
-mychat = '6633530090'
+mychat = 'bot_chatid'
 public_chat_name = "@K2019test"
 
 # 메시지를 보내는 함수
