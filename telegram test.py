@@ -14,6 +14,7 @@ public_chat_name = "@K2019test"
 # 메시지를 보내는 함수
 def job():
     now = datetime.datetime.now(pytz.timezone('Asia/Seoul'))
+# 오후 11시 부터 아침 6시까지는 메시지 출력 금지    
     if now.hour >= 23 or now.hour <= 6:
         return
 
